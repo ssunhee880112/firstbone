@@ -6,7 +6,15 @@
 <title>처음본정형외과의원 | 안양 석수동 정형외과</title>
 <meta name="description" content="처음 만나는 정형외과, 올바른 치료의 기준이 되겠습니다. 안양 석수동 처음본정형외과의원 - 척추·관절, 신경주사, 재생치료, 외상·골절, 도수·재활. 평일 오후 8시까지 야간진료.">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
-<link rel="stylesheet" href="style.css?v=4">
+<link rel="stylesheet" href="css/style.css?v=6">
+<style>
+/* 진료 아이콘: 회색 선 + 포인트 색, 배경 원 없이 크게 */
+.dept-items .i { width: 76px; height: 76px; background: transparent; border-radius: 0; color: #3b4250; --ico-accent: #35b2c4; transition: transform .3s; }
+.dept-items .i svg { width: 64px; height: 64px; }
+.dept-items li:hover .i { background: transparent; color: #3b4250; transform: translateY(-4px); }
+.dept-ico { color: #3b4250; --ico-accent: #35b2c4; }
+.dept-ico svg { width: 50px; height: 50px; }
+</style>
 </head>
 <body>
 
@@ -21,27 +29,29 @@
     <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4.5 6v5.5c0 4.6 3.2 8.4 7.5 9.5 4.3-1.1 7.5-4.9 7.5-9.5V6L12 3Z"/><path d="m8.5 12 2.5 2.5 4.5-5"/></symbol>
     <symbol id="i-target" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1"/><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3"/></symbol>
     <symbol id="i-run" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="14.5" cy="4.5" r="2"/><path d="M8 21l3-6 3 2.5V22M6 11l3-3.5 4 1 3 4 3 .5M11 15l-1.5-4"/></symbol>
-    <symbol id="i-spine" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="2.5" width="8" height="3.5" rx="1.2"/><rect x="8.5" y="8" width="7" height="3.5" rx="1.2"/><rect x="8" y="13.5" width="8" height="3.5" rx="1.2"/><rect x="8.5" y="19" width="7" height="3" rx="1.2"/></symbol>
-    <symbol id="i-narrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3c2 3 2 6 0 9s-2 6 0 9M17 3c-2 3-2 6 0 9s2 6 0 9M12 3v18"/></symbol>
-    <symbol id="i-joint" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2v7.5a3 3 0 0 0 6 0V2M9 22v-7.5a3 3 0 0 1 6 0V22"/><path d="M7.5 12h9"/></symbol>
-    <symbol id="i-knee" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2l1.5 8a3 3 0 0 0 5.5 1L18 4M10 13l-2 9M15 12l1 10"/><circle cx="12.5" cy="11" r="1.2"/></symbol>
-    <symbol id="i-syringe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m18 2 4 4M20 4l-3.5 3.5M14.5 5.5l4 4M17 8 8 17l-3-3 9-9M5 14l-3 3 1 1M8 17l-3 3M9.5 9.5 11 11M12 7l1.5 1.5"/></symbol>
-    <symbol id="i-nerve" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="7" r="3"/><path d="M12 10v12M12 14l-5 3M12 14l5 3M9.5 5 6 2M14.5 5 18 2M12 18l-3 4M12 18l3 4"/></symbol>
-    <symbol id="i-drop" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11Z"/><path d="M9.5 14.5a2.5 2.5 0 0 0 2.5 2.5"/></symbol>
-    <symbol id="i-point" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4M5 5l2.5 2.5M16.5 16.5 19 19M19 5l-2.5 2.5M7.5 16.5 5 19"/></symbol>
-    <symbol id="i-leaf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19c0-8 5-14 15-15-1 10-7 15-15 15Z"/><path d="M5 19 13 11"/></symbol>
-    <symbol id="i-tendon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6c3 0 3 3 6 3s3-3 6-3 3 3 4 3M4 12c3 0 3 3 6 3s3-3 6-3 3 3 4 3M4 18c3 0 3 3 6 3"/></symbol>
-    <symbol id="i-cartilage" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9c2-3 14-3 16 0M4 15c2 3 14 3 16 0"/><ellipse cx="12" cy="12" rx="8" ry="1.6"/></symbol>
-    <symbol id="i-pulse" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h4l2.5-6 4 12 3-8 1.5 2H22"/></symbol>
-    <symbol id="i-ball" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3.5 9c4 1 13 1 17 0M3.5 15c4-1 13-1 17 0M12 3c-3 4-3 14 0 18M12 3c3 4 3 14 0 18"/></symbol>
-    <symbol id="i-bone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4.5a2.5 2.5 0 1 0-2.5 4.1L10 14l-1 1-4.5-.5a2.5 2.5 0 1 0 4.1 2.5L14 11.5"/><path d="m11 9 4.5-4.5a2.5 2.5 0 1 1 4.1 2.5L15 10l4.5 5.5a2.5 2.5 0 1 1-2.5 4.1L13 15"/><path d="m10 10 4 4" stroke-dasharray="1.5 1.5"/></symbol>
-    <symbol id="i-dislocate" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="9" r="4"/><path d="M15 11a5 5 0 0 1 3 8M12.5 12.5 20 20"/></symbol>
-    <symbol id="i-ankle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2v11l-4 4v3h14v-2c0-2-3-3-5-4V2"/><path d="M16 9l2-2M17 12l2.5-.5"/></symbol>
-    <symbol id="i-car" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 16v-4l2-5h14l2 5v4H3Z"/><circle cx="7" cy="16.5" r="1.8"/><circle cx="17" cy="16.5" r="1.8"/><path d="M3 12h18"/></symbol>
-    <symbol id="i-hand" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 13V5.5a1.5 1.5 0 0 1 3 0V11M11 10V4a1.5 1.5 0 0 1 3 0v6M14 10V5.5a1.5 1.5 0 0 1 3 0V13c0 4.5-2.5 8-6.5 8-3 0-4.5-1.5-6-4L3 13.5a1.5 1.5 0 0 1 2.5-1.5L8 14"/></symbol>
-    <symbol id="i-exercise" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h2M20 12h2M4 8v8M20 8v8M6 6v12M18 6v12M6 12h12"/></symbol>
-    <symbol id="i-posture" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4" r="2"/><path d="M12 7v8M8 10h8M12 15l-3 7M12 15l3 7"/><path d="M4 3v18M20 3v18" stroke-dasharray="2 2"/></symbol>
-    <symbol id="i-wave" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 8c2.5-2 5-2 7.5 0s5 2 7.5 0 3.5-1.5 5-1M2 13c2.5-2 5-2 7.5 0s5 2 7.5 0 3.5-1.5 5-1M2 18c2.5-2 5-2 7.5 0s5 2 7.5 0 3.5-1.5 5-1"/></symbol>
+    <!-- 진료 아이콘 (48 그리드): 회색 선 + 포인트 색(--ico-accent) -->
+    <symbol id="i-spine" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="18" y="7" width="12" height="5" rx="1.5"/><rect x="18" y="17" width="12" height="5" rx="1.5"/><rect x="18" y="27" width="12" height="5" rx="1.5"/><rect x="18" y="37" width="12" height="5" rx="1.5"/><path d="M18 9h-3v4M30 9h3v4M18 19h-3v4M30 19h3v4M18 29h-3v4M30 29h3v4M18 39h-3v4M30 39h3v4"/><path d="M8 25v6M5.4 26.5l5.2 3M5.4 29.5l5.2-3"/><circle cx="41" cy="27" r="1.8"/><path d="M41 22.6v1.4M41 30v1.4M36.6 27H38M44 27h1.4M37.9 23.9l1 1M43.1 29.1l1 1M44.1 23.9l-1 1M38.9 29.1l-1 1"/><path stroke="var(--ico-accent,#35b2c4)" d="M20 4.6h8M20 14.6h8M20 24.6h8M20 34.6h8"/></symbol>
+    <symbol id="i-narrow" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3c6 7 6.5 14 1.5 22S12 39 17 45"/><path d="M31 7.5h3M33 14.5h3M33.5 21.5h3M32.5 28.5h3M31 35.5h3"/><path d="M8 29.5v1.2M8 35.3v1.2M4.7 33H6M10 33h1.3"/><circle cx="8" cy="33" r="1.6"/><path d="M41 38v6M38.4 39.5l5.2 3M38.4 42.5l5.2-3"/><g stroke="var(--ico-accent,#35b2c4)"><rect x="23" y="5" width="8" height="5" rx="1.2"/><rect x="25" y="12" width="8" height="5" rx="1.2"/><rect x="25.5" y="19" width="8" height="5" rx="1.2"/><rect x="24.5" y="26" width="8" height="5" rx="1.2"/><rect x="23" y="33" width="8" height="5" rx="1.2"/></g></symbol>
+    <symbol id="i-joint" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3v14.5c-3.2.8-5 3-5 5.5 0 1.6 1 2.5 2.5 2.5h17c1.5 0 2.5-.9 2.5-2.5 0-2.5-1.8-4.7-5-5.5V3"/><path d="M14 30h20c0 2.2-1.6 3.6-4 4v11M18 34c-2.4-.4-4-1.8-4-4M18 34v11"/><path d="M41 37v7M37.5 40.5h7"/><path stroke="var(--ico-accent,#35b2c4)" d="M22 5v11M26 5v11M15.5 27.8c2 .8 4.5.8 6.5 0M26 27.8c2 .8 4.5.8 6.5 0M22 36v8M26 36v8"/></symbol>
+    <symbol id="i-knee" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M13 3c6 6 13 10 20 12 3.4 1 4.6 4 3.6 7L31 45"/><path d="M5 10c5 5.5 11 9.5 17.5 12.5 2 1 2.8 3 2.2 5l-1 4c-.5 2-.5 4 0 6L25 45"/><path d="M8 32v6M5.4 33.5l5.2 3M5.4 36.5l5.2-3"/><g stroke="var(--ico-accent,#35b2c4)"><circle cx="31.5" cy="19.5" r="3.2"/><path d="M40 14l3-2M41 20h3.5M40 26l3 2"/></g></symbol>
+    <symbol id="i-syringe" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><g transform="rotate(45 24 24)"><rect x="20.5" y="10" width="7" height="20" rx="1.2"/><path d="M18 10h12M24 10V4M20.5 4h7M24 30v13"/><path d="M20.5 17h2.5M20.5 22h2.5"/><path stroke="var(--ico-accent,#35b2c4)" d="M25 20v8"/></g><path d="M38 34v7M34.5 37.5h7"/></symbol>
+    <symbol id="i-nerve" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="7" r="4"/><path d="M18 14h12c2 0 3 1 3.3 3l1.7 13M18 14c-2 0-3 1-3.3 3L13 30M18 20v25M30 20v25M24 32v13"/><path d="M41 36v7M37.5 39.5h7"/><path stroke="var(--ico-accent,#35b2c4)" d="M24 12v20M24 18l-6.5 6M24 18l6.5 6M24 32l-3 11M24 32l3 11"/></symbol>
+    <symbol id="i-spine-inject" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="12" y="8" width="11" height="4.5" rx="1.3"/><rect x="12" y="17" width="11" height="4.5" rx="1.3"/><rect x="12" y="26" width="11" height="4.5" rx="1.3"/><rect x="12" y="35" width="11" height="4.5" rx="1.3"/><path d="M12 10H9.5v3.5M23 10h2.5v3.5M12 19H9.5v3.5M23 19h2.5v3.5M12 28H9.5v3.5M23 28h2.5v3.5M12 37H9.5v3.5M23 37h2.5v3.5"/><rect x="32" y="20" width="10" height="6" rx="1.2"/><path d="M42 23h3M45 20v6M32 23h-5M35 20v2M38 20v2"/><path d="M33 33v5M30.8 34.2l4.4 2.6M30.8 36.8l4.4-2.6"/><path stroke="var(--ico-accent,#35b2c4)" d="M14 5.8h7M14 14.8h7M14 23.8h7M14 32.8h7M34 24h6"/></symbol>
+    <symbol id="i-drop" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M13 3v11.5c-2.6.7-4 2.5-4 4.5 0 1.3.8 2 2 2h14c1.2 0 2-.7 2-2 0-2-1.4-3.8-4-4.5V3"/><path d="M10 26h17c0 1.8-1.3 3-3.3 3.3V45M13.3 29.3C11.3 29 10 27.8 10 26M13.3 29.3V45"/><rect x="33" y="20.5" width="9" height="6" rx="1.2"/><path d="M42 23.5h3M45 20.5v6M33 23.5h-4"/><path stroke="var(--ico-accent,#35b2c4)" d="M11.5 23.5h14M35 23.5h5M16.5 5v8M19.5 5v8"/></symbol>
+    <symbol id="i-point" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="8" r="4.5"/><path d="M19.5 13v3c0 1.5-1.2 2.5-3 3l-6 1.8C7.5 21.7 6 24 6 27v17M28.5 13v3c0 1.5 1.2 2.5 3 3l6 1.8c3 .9 4.5 3.2 4.5 6.2v17M24 20v24"/><g stroke="var(--ico-accent,#35b2c4)"><circle cx="15" cy="27" r="4.2"/><circle cx="15" cy="27" r="1" fill="var(--ico-accent,#35b2c4)"/></g></symbol>
+    <symbol id="i-leaf" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 40c0-16 10-28 30-30-2 20-14 30-30 30Z"/><path d="M10 5v8M6 9h8"/><path d="M40 34v7M36.5 37.5h7"/><path stroke="var(--ico-accent,#35b2c4)" d="M10 40l17-17M19 31h5M25.6 24.4V19M15 35.5V32"/></symbol>
+    <symbol id="i-tendon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 45V27l-4-7c-1-2 1-4 3-2.5l4 4.5V9a2 2 0 0 1 4 0v11M21 20V5a2 2 0 0 1 4 0v15M25 20V7a2 2 0 0 1 4 0v14M29 21V11a2 2 0 0 1 4 0v17c0 6-2.5 11-5.5 17"/><path d="M41 33v7M37.5 36.5h7"/><path stroke="var(--ico-accent,#35b2c4)" d="M19 11v14l2 18M23 7v18l.5 18M27 9v17l-1 17M31 13v14l-3 16"/></symbol>
+    <symbol id="i-cartilage" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3v14.5c-3.2.8-5 3-5 5.5 0 1.6 1 2.5 2.5 2.5h17c1.5 0 2.5-.9 2.5-2.5 0-2.5-1.8-4.7-5-5.5V3"/><path d="M14 31h20c0 2.2-1.6 3.6-4 4v10M18 35c-2.4-.4-4-1.8-4-4M18 35v10"/><path d="M40 24l3.5-1.5M40 28l3.5 1.5M8 24l-3.5-1.5M8 28l-3.5 1.5"/><path stroke="var(--ico-accent,#35b2c4)" d="M15 28.2h7l2 1.8 2-1.8h7"/></symbol>
+    <symbol id="i-pulse" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M24 10c-2-3-7-3-9 0-4 0-6.5 4-5 7.5-3 2-3 7 0 9-1 4 2 8 6 8 2 3 6 3.4 8 1.2V10Z"/><path d="M18 15c2 1 3 3 2 5M14 23c3 0 5 2 5 4M19 31c0-2 2-3 5-3"/><path d="M8 40v6M5.4 41.5l5.2 3M5.4 44.5l5.2-3"/><circle cx="41" cy="9" r="1.6"/><path d="M41 4.8v1.3M41 11.9v1.3M36.8 9h1.3M43.9 9h1.3"/><path stroke="var(--ico-accent,#35b2c4)" d="M24 10c2-3 7-3 9 0 4 0 6.5 4 5 7.5 3 2 3 7 0 9 1 4-2 8-6 8-2 3-6 3.4-8 1.2M30 15c-2 1-3 3-2 5M34 23c-3 0-5 2-5 4M29 31c0-2-2-3-5-3"/></symbol>
+    <symbol id="i-ball" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="22" cy="26" r="14"/><path d="M36 6l-2.6 4M43 11l-4 2.2M45 19.5l-4.4-.4"/><path stroke="var(--ico-accent,#35b2c4)" d="M12 15.5c3.5 3 5 7 5 10.5s-1.5 7.5-5 10.5M32 15.5c-3.5 3-5 7-5 10.5s1.5 7.5 5 10.5M12.7 19h3M14.5 23h3M15.4 27h3M14.3 31h3M12.1 35h3M28.3 19h3M26.5 23h3M25.6 27h3M26.7 31h3M28.9 35h3"/></symbol>
+    <symbol id="i-bone" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M19 13c-4 0-5.4-3-4.4-5.4 1-2.4 4-3 5.8-1.2 1.4-1.6 5.8-1.6 7.2 0 1.8-1.8 4.8-1.2 5.8 1.2 1 2.4-.4 5.4-4.4 5.4M19 35c-4 0-5.4 3-4.4 5.4 1 2.4 4 3 5.8 1.2 1.4 1.6 5.8 1.6 7.2 0 1.8 1.8 4.8 1.2 5.8-1.2 1-2.4-.4-5.4-4.4-5.4M19 13v9M29 13v9.4M19 26v9M29 25.6V35"/><path d="M38 20l4-2M38 28l4 2M10 20l-4-2M10 28l-4 2"/><path stroke="var(--ico-accent,#35b2c4)" d="M16.5 24.6l4-2.6 3 3.6 3.2-3 4.8 2.4"/></symbol>
+    <symbol id="i-dislocate" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3v13c-2 .5-3 2-3 3.5 0 1.4 1 2.5 2.5 2.5h9c1.5 0 2.5-1.1 2.5-2.5 0-1.5-1-3-3-3.5V3"/><path d="M22 27.5c0-1.4 1-2.5 2.5-2.5h9c1.5 0 2.5 1.1 2.5 2.5 0 1.5-1 3-3 3.5V45M25 31c-2-.5-3-2-3-3.5M25 31v14"/><path d="M33 16l3.4-2M34.5 20.5h4"/><g stroke="var(--ico-accent,#35b2c4)"><path stroke-dasharray="2.4 2.4" d="M13 25.5h14"/><path d="M8 35h9M14 32l3 3-3 3"/></g></symbol>
+    <symbol id="i-ankle" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v29c0 2-1 3-2.5 4S7 39 7 41v2h33c2 0 3-1.5 2.4-3-.8-2-3.4-3.2-6.4-3.8l-8-2c-3-.8-6-3-6-6V3"/><path d="M37 9v7M33.5 12.5h7"/><path stroke="var(--ico-accent,#35b2c4)" d="M15 5v25c0 2.6-.6 4.4-1.8 6M18.5 5v24.5c0 3 2 5 5.5 6l10 2.6"/></symbol>
+    <symbol id="i-car" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 36v-8l3.6-9h21l3.6 9v8H4ZM4 28h28M18 19v9"/><circle cx="11" cy="36.5" r="3"/><circle cx="25" cy="36.5" r="3"/><path stroke="var(--ico-accent,#35b2c4)" d="M39 5v5M39 16v5M31 13h5M42 13h5M33.3 7.3l2.4 2.4M42.3 16.3l2.4 2.4M44.7 7.3l-2.4 2.4M35.7 16.3l-2.4 2.4"/></symbol>
+    <symbol id="i-hand" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 19c5-2 10-3.4 16-4 2 .2 3 1.4 3.6 3L31 34c1 2 2.4 3 4.4 3.6l7 2c1.4.4 2 1.6 1.4 2.6H30c-1.6 0-2.8-.8-3.4-2L16 24c-4 .6-8 1.6-13 3.4"/><g transform="translate(26.8 26) rotate(-27.7)"><rect x="1" y="-4" width="4" height="8" rx="1"/><rect x="5" y="-2.6" width="3" height="5.2"/><rect x="8" y="-3.4" width="10" height="6.8" rx="3"/><path stroke="var(--ico-accent,#35b2c4)" d="M-1.6-3.2a4.6 4.6 0 0 0 0 6.4M-4.4-5.4a8 8 0 0 0 0 10.8"/></g><path d="M42.7 17.6c3-1.6 3.8-5 2.4-7.6-1-1.8-2.8-2.8-5-2.8H37M37 4v6.4"/></symbol>
+    <symbol id="i-exercise" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="16" width="5" height="16" rx="1.5"/><rect x="12" y="12" width="5" height="24" rx="1.5"/><rect x="36" y="16" width="5" height="16" rx="1.5"/><rect x="31" y="12" width="5" height="24" rx="1.5"/><path d="M3 24h4M41 24h4"/><path d="M40 37v7M36.5 40.5h7"/><path stroke="var(--ico-accent,#35b2c4)" d="M17 24h14"/></symbol>
+    <symbol id="i-posture" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="7.5" r="4"/><path d="M18 14h12c2 0 3 1 3.3 3l1.7 13M18 14c-2 0-3 1-3.3 3L13 30M18 20v25M30 20v25M24 32v13"/><path stroke="var(--ico-accent,#35b2c4)" stroke-dasharray="3 3" d="M6 3v42M42 3v42"/><path stroke="var(--ico-accent,#35b2c4)" d="M24 13v19"/></symbol>
+    <symbol id="i-wave" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><g transform="translate(0 -9)"><path d="M3 36h42M8 36v8M40 36v8"/><circle cx="8.5" cy="29.5" r="3.5"/><path d="M13.5 36v-3.6c0-2.2 1.6-3.9 3.8-3.9H27c1.8 0 3-.9 4.6-1.4 2.2-.7 4.2.2 5.4 1.4H41c1.6 0 2.8 1.3 2.8 2.9V36"/><path stroke="var(--ico-accent,#35b2c4)" d="M19.5 32.5h17"/></g></symbol>
     <symbol id="i-image" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="3"/><circle cx="9" cy="9.5" r="1.8"/><path d="m21 16-5-5-9 9"/></symbol>
   </defs>
 </svg>
@@ -49,7 +59,7 @@
 <!-- ===== 헤더 ===== -->
 <header class="header" id="header">
   <div class="inner">
-    <h1 class="logo"><a href="#top" aria-label="처음본정형외과의원 홈"><img src="logo.png" alt="처음본정형외과의원 FIRST BONE ORTHOPEDIC CLINIC"></a></h1>
+    <h1 class="logo"><a href="#top" aria-label="처음본정형외과의원 홈"><img src="images/logo.png" alt="처음본정형외과의원 FIRST BONE ORTHOPEDIC CLINIC"></a></h1>
     <nav class="gnb" id="gnb">
       <a href="#about">병원소개</a>
       <a href="#dept-spine">척추·관절</a>
@@ -170,7 +180,7 @@
             </ul>
           </div>
         </div>
-        <div class="doctor-photo"><img src="doctor.png" alt="처음본정형외과 이형기 대표원장"></div>
+        <div class="doctor-photo"><img src="images/doctor.png" alt="처음본정형외과 이형기 대표원장"></div>
       </div>
     </div>
   </section>
@@ -185,7 +195,7 @@
       </div>
       <div class="reasons reveal">
         <div class="reason">
-          <img src="feature_a.jpg" alt="주차시설">
+          <img src="images/feature_a.jpg" alt="주차시설">
           <div class="txt">
             <span class="num">01</span>
             <h3>지역 내<br>최다주차 시설</h3>
@@ -193,7 +203,7 @@
           </div>
         </div>
         <div class="reason">
-          <img src="feature_b.jpg" alt="정형외과 전문의 진료">
+          <img src="images/feature_b.jpg" alt="정형외과 전문의 진료">
           <div class="txt">
             <span class="num">02</span>
             <h3>정형외과 전문의가<br>직접진료</h3>
@@ -201,7 +211,7 @@
           </div>
         </div>
         <div class="reason">
-          <img src="feature_c.jpg" alt="물리치료실">
+          <img src="images/feature_c.jpg" alt="물리치료실">
           <div class="txt">
             <span class="num">03</span>
             <h3>쾌적하고 편안한<br>물리치료실</h3>
@@ -223,11 +233,11 @@
 
       <!-- 진료과목 이미지 메뉴 (이수탑정형외과 참고) : 사진은 dept_*.jpg 로 넣으면 자동 적용 -->
       <div class="dept-tabs reveal" id="deptTabs">
-        <a href="#dept-spine" class="dept-tab"><span class="bg" style="background-image:url(dept_spine.jpg?v=2); background-position:62% center"></span><svg class="ph"><use href="#i-spine"/></svg><span class="t">비수술<br>척추·관절</span></a>
-        <a href="#dept-nerve" class="dept-tab"><span class="bg" style="background-image:url(dept_nerve.jpg?v=2); background-position:48% center"></span><svg class="ph"><use href="#i-syringe"/></svg><span class="t">신경주사</span></a>
-        <a href="#dept-regen" class="dept-tab"><span class="bg" style="background-image:url(dept_regen.jpg?v=2); background-position:42% center"></span><svg class="ph"><use href="#i-leaf"/></svg><span class="t">재생치료</span></a>
-        <a href="#dept-trauma" class="dept-tab"><span class="bg" style="background-image:url(dept_trauma.jpg?v=2); background-position:55% center"></span><svg class="ph"><use href="#i-bone"/></svg><span class="t">외상·골절</span></a>
-        <a href="#dept-rehab" class="dept-tab"><span class="bg" style="background-image:url(dept_rehab.jpg?v=2); background-position:55% center"></span><svg class="ph"><use href="#i-hand"/></svg><span class="t">도수·재활</span></a>
+        <a href="#dept-spine" class="dept-tab"><span class="bg" style="background-image:url(images/dept_spine.jpg?v=2); background-position:62% center"></span><svg class="ph"><use href="#i-spine"/></svg><span class="t">비수술<br>척추·관절</span></a>
+        <a href="#dept-nerve" class="dept-tab"><span class="bg" style="background-image:url(images/dept_nerve.jpg?v=2); background-position:48% center"></span><svg class="ph"><use href="#i-syringe"/></svg><span class="t">신경주사</span></a>
+        <a href="#dept-regen" class="dept-tab"><span class="bg" style="background-image:url(images/dept_regen.jpg?v=3); background-position:42% center"></span><svg class="ph"><use href="#i-leaf"/></svg><span class="t">재생치료</span></a>
+        <a href="#dept-trauma" class="dept-tab"><span class="bg" style="background-image:url(images/dept_trauma.jpg?v=2); background-position:55% center"></span><svg class="ph"><use href="#i-bone"/></svg><span class="t">외상·골절</span></a>
+        <a href="#dept-rehab" class="dept-tab"><span class="bg" style="background-image:url(images/dept_rehab.jpg?v=3); background-position:55% center"></span><svg class="ph"><use href="#i-hand"/></svg><span class="t">도수·재활</span></a>
       </div>
 
       <!-- 비수술 척추·관절 -->
@@ -243,7 +253,7 @@
             <li><div class="i"><svg><use href="#i-knee"/></svg></div><strong>무릎·고관절<br>통증</strong></li>
           </ul>
         </div>
-        <div class="dept-img"><img src="dept_spine.jpg?v=2" alt="비수술 척추·관절 치료" loading="lazy"></div>
+        <div class="dept-img"><img src="images/dept_spine.jpg?v=2" alt="비수술 척추·관절 치료" loading="lazy"></div>
       </article>
 
       <!-- 신경주사 -->
@@ -254,12 +264,12 @@
           <p>통증의 원인이 되는 부위를 정밀하게 확인한 후<br>신경 주변에 약물을 주입하여 통증과 염증을 완화합니다.<br>환자의 상태에 따라 치료 방법과 횟수를 결정합니다.</p>
           <ul class="dept-items">
             <li><div class="i"><svg><use href="#i-nerve"/></svg></div><strong>신경<br>차단술</strong></li>
-            <li><div class="i"><svg><use href="#i-spine"/></svg></div><strong>척추<br>신경주사</strong></li>
+            <li><div class="i"><svg><use href="#i-spine-inject"/></svg></div><strong>척추<br>신경주사</strong></li>
             <li><div class="i"><svg><use href="#i-drop"/></svg></div><strong>관절강<br>주사</strong></li>
             <li><div class="i"><svg><use href="#i-point"/></svg></div><strong>통증유발점<br>(TPI) 주사</strong></li>
           </ul>
         </div>
-        <div class="dept-img"><img src="dept_nerve.jpg?v=2" alt="신경주사 치료" loading="lazy"></div>
+        <div class="dept-img"><img src="images/dept_nerve.jpg?v=2" alt="신경주사 치료" loading="lazy"></div>
       </article>
 
       <!-- 재생치료 -->
@@ -275,7 +285,7 @@
             <li><div class="i"><svg><use href="#i-ball"/></svg></div><strong>스포츠<br>손상</strong></li>
           </ul>
         </div>
-        <div class="dept-img"><img src="dept_regen.jpg?v=2" alt="재생치료" loading="lazy"></div>
+        <div class="dept-img"><img src="images/dept_regen.jpg?v=3" alt="재생치료" loading="lazy" style="object-position:50% 72%"></div>
       </article>
 
       <!-- 외상·골절 -->
@@ -291,7 +301,7 @@
             <li><div class="i"><svg><use href="#i-car"/></svg></div><strong>교통사고<br>후유증</strong></li>
           </ul>
         </div>
-        <div class="dept-img"><img src="dept_trauma.jpg?v=2" alt="외상·골절 치료" loading="lazy"></div>
+        <div class="dept-img"><img src="images/dept_trauma.jpg?v=2" alt="외상·골절 치료" loading="lazy"></div>
       </article>
 
       <!-- 도수·재활 -->
@@ -307,7 +317,7 @@
             <li><div class="i"><svg><use href="#i-wave"/></svg></div><strong>물리<br>치료</strong></li>
           </ul>
         </div>
-        <div class="dept-img"><img src="dept_rehab.jpg?v=2" alt="도수·재활 치료" loading="lazy"></div>
+        <div class="dept-img"><img src="images/dept_rehab.jpg?v=3" alt="도수·재활 치료" loading="lazy" style="object-position:5% 30%"></div>
       </article>
     </div>
   </section>
@@ -370,10 +380,48 @@
         <a class="kakao" href="https://map.kakao.com/link/search/처음본정형외과" target="_blank" rel="noopener"><span class="mk">K</span>카카오맵</a>
         <a class="naver" href="https://map.naver.com/p/search/처음본정형외과" target="_blank" rel="noopener"><span class="mk">N</span>네이버지도</a>
       </div>
-      <!-- ※ 오픈 시 카카오맵 API(지도 퍼가기)로 교체 권장 -->
+      <!-- 카카오 지도 (JavaScript 키는 카카오 디벨로퍼스에 등록한 도메인에서만 작동) -->
       <div class="map-box reveal">
-        <iframe src="https://maps.google.com/maps?q=%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%95%88%EC%96%91%EC%8B%9C%20%EB%A7%8C%EC%95%88%EA%B5%AC%20%EC%84%9D%EC%88%98%EB%8F%99%20319-3&z=16&output=embed" loading="lazy" title="처음본정형외과 위치 지도"></iframe>
+        <div id="kakaoMap" style="width:100%;height:100%"></div>
       </div>
+      <script>
+      (function () {
+        var KEY = 'f9025512ee18cb00211d6514272e0b68';
+        var ADDR = '경기도 안양시 만안구 석수동 319-3';
+        var NAME = '처음본정형외과의원';
+        var box = document.getElementById('kakaoMap');
+        // 카카오 지도를 못 불러오면(등록 안 된 주소, 파일로 직접 열기 등) 구글 지도로 대신 표시
+        function fallback() {
+          if (box.dataset.ok) return;
+          box.innerHTML = '<iframe src="https://maps.google.com/maps?q=' + encodeURIComponent(ADDR) + '&z=16&output=embed" loading="lazy" title="처음본정형외과 위치 지도" style="width:100%;height:100%;border:0"></iframe>';
+        }
+        var s = document.createElement('script');
+        s.src = 'https://dapi.kakao.com/v2/maps/sdk.js?appkey=' + KEY + '&libraries=services&autoload=false';
+        s.onerror = fallback;
+        s.onload = function () {
+          if (!window.kakao || !kakao.maps) return fallback();
+          kakao.maps.load(function () {
+            new kakao.maps.services.Geocoder().addressSearch(ADDR, function (res, status) {
+              if (status !== kakao.maps.services.Status.OK) return fallback();
+              box.dataset.ok = '1';
+              box.innerHTML = '';
+              var pos = new kakao.maps.LatLng(res[0].y, res[0].x);
+              var map = new kakao.maps.Map(box, { center: pos, level: 3 });
+              map.addControl(new kakao.maps.ZoomControl(), kakao.maps.ControlPosition.RIGHT);
+              map.setZoomable(false); // 페이지 스크롤 중 지도 확대/축소 방지 (버튼으로 조절)
+              new kakao.maps.Marker({ map: map, position: pos });
+              new kakao.maps.CustomOverlay({
+                map: map, position: pos, yAnchor: 2.6,
+                content: '<div style="padding:8px 14px;border-radius:999px;background:#0e2a5c;color:#fff;font-size:14px;font-weight:700;white-space:nowrap;box-shadow:0 4px 12px rgba(0,0,0,.2)">' + NAME + '</div>'
+              });
+              window.addEventListener('resize', function () { map.relayout(); map.setCenter(pos); });
+            });
+          });
+        };
+        document.head.appendChild(s);
+        setTimeout(fallback, 6000);
+      })();
+      </script>
       <div class="info-grid reveal" id="hours">
         <div class="info-card">
           <p class="label">처음본정형외과의원</p>
@@ -405,7 +453,7 @@
 <!-- ===== 푸터 ===== -->
 <footer class="footer">
   <div class="inner">
-    <div class="f-logo"><img src="logo_white.png" alt="처음본정형외과의원"></div>
+    <div class="f-logo"><img src="images/logo_white.png" alt="처음본정형외과의원"></div>
     <div>
       <div class="f-links">
         <a href="#doctor">의료진소개</a>
@@ -448,6 +496,6 @@
   </div>
 </div>
 
-<script src="main.js?v=3"></script>
+<script src="js/main.js?v=3"></script>
 </body>
 </html>
